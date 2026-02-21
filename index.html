@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        * {
+            font-family: "Geist", sans-serif;
+        }
+    </style>
+
+    
+</head>
+<body class="bg-[#F8FAFC]">
+    <header class="w-[70%] mx-auto mb-8">
+        <h1 class="text-[32px] font-bold text-[#002c5cFF] mt-[60px] mb-[20px]">Job Application Tracker</h1>
+        <div class="grid grid-cols-3 gap-8">
+            <div class="bg-white border border-[#f1f2f4] p-5 rounded-lg flex flex-col gap-2">
+                <p class="text-sm">Total</p>
+                <p id="total" class="text-2xl font-bold text-[#002c5c]">0</p>
+            </div>
+
+            <div class="bg-white border border-[#f1f2f4] p-5 rounded-lg flex flex-col gap-2">
+                <p class="text-sm">Interview</p>
+                <p id="total" class="text-2xl font-bold text-[#10b981]">0</p>
+            </div>
+
+            <div class="bg-white border border-[#f1f2f4] p-5 rounded-lg flex flex-col gap-2">
+                <p class="text-sm">Rejected</p>
+                <p id="total" class="text-2xl font-bold text-[#ef4444]">0</p>
+            </div>
+        </div>
+    </header>
+    <div class="w-[70%] mx-auto border border-[#e6e7e9] mb-8"></div>
+
+    <main class="w-[70%] mx-auto">
+        <div class="flex justify-between mb-8">
+            <div class="text-[20px] font-semibold"><h3>Available Jobs</h3></div>
+            <p class="text-[#64748bFF] text-[16px]"><span>0</span> jobs</p>
+        </div>
+
+        <div class="mb-4 flex gap-2">
+            <button onclick="toggleStyle('all-filter-btn')"  class="bg-[#3B82F6] text-white px-5 py-2 rounded-sm cursor-pointer" id="all-filter-btn">All</button>
+            <button onclick="toggleStyle('thriving-filter-btn')"  class="bg-[#FFFFFF] text-[#64748bFF] px-5 py-2 rounded-sm cursor-pointer" id="thriving-filter-btn">Interview</button>
+            <button onclick="toggleStyle('struggling-filter-btn')"  class="bg-[#FFFFFF] text-[#64748bFF] px-5 py-2 rounded-sm cursor-pointer" id="struggling-filter-btn">Rejected</button>
+        </div>
+
+        <section class="space-y-6">
+            <div class="card flex justify-between border border-[#f1f2f4] p-4 bg-white rounded-sm">
+                
+                <div class="space-y-6">
+                    <div>
+                        <p class="font-semibold text-lg">Mobile First Corp</p>
+                        <p class="text-base text-[#64748bFF]">React Native Developer</p>
+                    </div>
+
+                    <div class="text-sm text-[#64748bFF]">
+                        <p>Remote • Full-time • $130,000 - $175,000</p>
+                    </div>
+
+                    <div>
+                        <button class="bg-[#eef4ff] text-[#002C5C] rounded-sm px-2 py-3">NOT APPLIED</button>
+                    </div>
+
+                    <div class="text-sm text-[#323b49FF]">
+                        <p>Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.</p>
+                    </div>
+
+                     <div class="flex gap-5">
+                        <button class="border border-[#10B981] text-[#10b981FF] px-4 py-2 rounded-sm font-semibold cursor-pointer">INTERVIEW</button>
+                        <button class="border border-[#EF4444] text-[#EF4444] px-4 py-2 rounded-sm font-semibold cursor-pointer">REJECTED</button>
+                     </div>
+                </div>
+
+                
+                <div>
+                    <div class="border-2 rounded-full border-[#f1f2f4] p-3 text-[#64748B] w-full">
+                        <i class="fa-regular fa-trash-can"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
