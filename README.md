@@ -11,16 +11,16 @@
 * **querySelectorAll:** It returns all the matching element by a specific class name. It returns elements as a NodeList. When we need to select multiple elements by a class name.
 
 ### 2\. How do you create and insert a new element into the DOM?
-**Answer:** By document.createElement, we create a new element into the DOM and by append or appendChild we insert that new element into the DOM. 
+By document.createElement, we create a new element into the DOM and by append or appendChild we insert that new element into the DOM. 
 
 ### 3\. What is Event Bubbling? And how does it work?
-**Answer:** _Event Bubbling_ means when an event happens on an element, it first runs on that element and then “bubbles up” through its parent elements — all the way to _document_.
+_Event Bubbling_ means when an event happens on an element, it first runs on that element and then “bubbles up” through its parent elements — all the way to _document_.
 
 ### 4\. What is Event Delegation in JavaScript? Why is it useful?
-**Answer:** Event delegation is a technique where a single event listener on a parent handles events for its child elements via event bubbling.
+Event delegation is a technique where a single event listener on a parent handles events for its child elements via event bubbling.
 
 ### 5\. What is the difference between preventDefault() and stopPropagation() methods?
-**Answer:** _preventDefault()_ stops the browser’s default action, while _stopPropagation()_ stops the event from bubbling up to parent elements.
+_preventDefault()_ stops the browser’s default action, while _stopPropagation()_ stops the event from bubbling up to parent elements.
 
 
 
