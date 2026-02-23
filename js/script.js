@@ -173,6 +173,7 @@ function renderInterview() {
     if (interviewList.length === 0) {
         renderDefault();
         return;
+
     } else {
         for (let interview of interviewList) {
 
@@ -223,6 +224,7 @@ function renderRejected() {
     if (rejectedList.length === 0) {
         renderDefault();
         return;
+        
     } else {
         for (let reject of rejectedList) {
 
