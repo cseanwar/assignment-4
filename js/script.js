@@ -16,6 +16,7 @@ const mainContainer = document.querySelector('main')
 const allCardSection = document.getElementById('allCards');
 const filterSection = document.getElementById('filtered-section')
 
+// Counting function
 function calculateCount() {
     total.innerText = allCardSection.children.length
     interviewCount.innerText = interviewList.length;
@@ -31,6 +32,8 @@ function calculateCount() {
 }
 calculateCount()
 
+
+//  Toggle function
 function toggleStyle(id) {
     allFilterBtn.classList.add('bg-[#FFFFFF]', 'text-[#64748bFF]')
     interviewFilterBtn.classList.add('bg-[#FFFFFF]', 'text-[#64748bFF]')
@@ -66,6 +69,7 @@ function toggleStyle(id) {
     }
 }
 
+//  Delegation part
 mainContainer.addEventListener('click', function (event) {
     if (event.target.classList.contains('interview-btn')) {
         const parenNode = event.target.parentNode.parentNode;
@@ -153,6 +157,7 @@ mainContainer.addEventListener('click', function (event) {
     }
 })
 
+// Function for default or empty state
 function renderDefault () {
     filterSection.innerHTML = '';
         let div = document.createElement('div');
@@ -167,6 +172,8 @@ function renderDefault () {
         filterSection.appendChild(div);
 }
 
+
+// Function for render interview function
 function renderInterview() {
     filterSection.innerHTML = '';
 
@@ -218,13 +225,14 @@ function renderInterview() {
     
 }
 
+// Function for render rejected function
 function renderRejected() {
     filterSection.innerHTML = '';
 
     if (rejectedList.length === 0) {
         renderDefault();
         return;
-        
+
     } else {
         for (let reject of rejectedList) {
 

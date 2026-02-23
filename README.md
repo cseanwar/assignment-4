@@ -2,6 +2,10 @@
 
 ### 1\. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 
+* getElementById: getElementById returns Element according to one specific ID. This ID is unique means we don't have same ID in any other elements of a HTML file. 
+
+* getElementsByClassName: 
+
 
 ### 2\. How do you create and insert a new element into the DOM?
 
