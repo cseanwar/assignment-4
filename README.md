@@ -14,13 +14,13 @@
 **Answer:** By document.createElement, we create a new element into the DOM and by append or appendChild we insert that new element into the DOM. 
 
 ### 3\. What is Event Bubbling? And how does it work?
-**Answer:** ***Event Bubbling*** means when an event happens on an element, it first runs on that element and then “bubbles up” through its parent elements — all the way to ***document***.
+**Answer:** _Event Bubbling_ means when an event happens on an element, it first runs on that element and then “bubbles up” through its parent elements — all the way to _document_.
 
 ### 4\. What is Event Delegation in JavaScript? Why is it useful?
 **Answer:** Event delegation is a technique where a single event listener on a parent handles events for its child elements via event bubbling.
 
 ### 5\. What is the difference between preventDefault() and stopPropagation() methods?
-**Answer:** ***preventDefault()*** stops the browser’s default action, while ***stopPropagation()*** stops the event from bubbling up to parent elements.
+**Answer:** _preventDefault()_ stops the browser’s default action, while _stopPropagation()_ stops the event from bubbling up to parent elements.
 
 
 
