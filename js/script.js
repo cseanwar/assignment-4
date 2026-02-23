@@ -190,7 +190,7 @@ function renderInterview() {
                     </div>
 
                      <div>
-                        <button class="status border border-[#10B981] text-[#10b981FF] px-4 py-2 rounded-sm font-semibold cursor-pointer">INTERVIEW</button>
+                        <button class="status bg-[#10b981FF] text-white px-4 py-2 rounded-sm font-semibold cursor-pointer">INTERVIEW</button>
                     </div>
 
                     <div class="text-sm text-[#323b49FF]">
@@ -198,15 +198,15 @@ function renderInterview() {
                     </div>
 
                     <div class="flex gap-5">
-                        <button class="interview-btn border border-[#10B981] text-[#10b981FF] px-4 py-2 rounded-sm font-semibold cursor-pointer">INTERVIEW</button>
-                        <button class="rejected-btn border border-[#EF4444] text-[#EF4444] px-4 py-2 rounded-sm font-semibold cursor-pointer">REJECTED</button>
+                        <button class="interview-btn border border-[#10B981] text-[#10b981FF] hover:bg-[#10b981FF] hover:text-white px-4 py-2 rounded-sm font-semibold cursor-pointer">INTERVIEW</button>
+                        <button class="rejected-btn border border-[#EF4444] text-[#EF4444] hover:bg-[#EF4444] hover:text-white px-4 py-2 rounded-sm font-semibold cursor-pointer">REJECTED</button>
                     </div>
                 </div>
 
                 
                 <div>
-                    <div class="border-2 rounded-full border-[#f1f2f4] p-3 text-[#64748B] hover:text-[#EF4444] w-full cursor-pointer">
-                        <i class="delete-btn fa-regular fa-trash-can"></i>
+                    <div class="border-2 border-[#f1f2f4] p-1 text-[#64748B] hover:text-[#EF4444] w-full cursor-pointer">
+                        <i class="delete-btn fa-solid fa-trash"></i>
                     </div>
                 </div>
             `
@@ -240,7 +240,7 @@ function renderRejected() {
                     </div>
 
                     <div>
-                        <button class="status border border-[#EF4444] text-[#EF4444] px-4 py-2 rounded-sm font-semibold cursor-pointer">REJECTED</button>
+                        <button class="status bg-[#EF4444] text-white px-4 py-2 rounded-sm font-semibold cursor-pointer">REJECTED</button>
                     </div>
 
                     <div class="text-sm text-[#323b49FF]">
@@ -248,15 +248,15 @@ function renderRejected() {
                     </div>
 
                     <div class="flex gap-5">
-                        <button class="interview-btn border border-[#10B981] text-[#10b981FF] px-4 py-2 rounded-sm font-semibold cursor-pointer">INTERVIEW</button>
-                        <button class="rejected-btn border border-[#EF4444] text-[#EF4444] px-4 py-2 rounded-sm font-semibold cursor-pointer">REJECTED</button>
+                        <button class="interview-btn border border-[#10B981] text-[#10b981FF] hover:bg-[#10b981FF] hover:text-white px-4 py-2 rounded-sm font-semibold cursor-pointer">INTERVIEW</button>
+                        <button class="rejected-btn border border-[#EF4444] text-[#EF4444] hover:bg-[#EF4444] hover:text-white px-4 py-2 rounded-sm font-semibold cursor-pointer">REJECTED</button>
                     </div>
                 </div>
 
                 
                 <div>
-                    <div class="border-2 rounded-full border-[#f1f2f4] p-3 text-[#64748B] hover:text-[#EF4444] w-full cursor-pointer">
-                        <i class="delete-btn fa-regular fa-trash-can"></i>
+                    <div class="border-2 border-[#f1f2f4] p-1 text-[#64748B] hover:text-[#EF4444] w-full cursor-pointer">
+                        <i class="delete-btn fa-solid fa-trash"></i>
                     </div>
                 </div>
             `
