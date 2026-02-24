@@ -23,9 +23,9 @@ function calculateCount() {
     rejectedCount.innerText = rejectedList.length;
 
     if (currentStatus == 'interview-filter-btn') {
-        totalJobs.innerText = interviewList.length;
+        totalJobs.innerText = interviewList.length + ' ' + "of" + ' ' + allCardSection.children.length;
     } else if (currentStatus == 'rejected-filter-btn') {
-        totalJobs.innerText = rejectedList.length;
+        totalJobs.innerText = rejectedList.length + ' ' + "of" + ' ' + allCardSection.children.length;
     } else {
         totalJobs.innerText = allCardSection.children.length;
     }
@@ -54,7 +54,7 @@ function toggleStyle(id) {
     if (id == 'interview-filter-btn') {
         allCardSection.classList.add('hidden');
         filterSection.classList.remove('hidden')
-        totalJobs.innerText = interviewList.length;
+        totalJobs.innerText = interviewList.length + ' ' + "of" + ' ' + allCardSection.children.length;
         renderInterview()
     } else if (id == 'all-filter-btn') {
         allCardSection.classList.remove('hidden');
@@ -64,7 +64,7 @@ function toggleStyle(id) {
     } else if (id == 'rejected-filter-btn') {
         allCardSection.classList.add('hidden');
         filterSection.classList.remove('hidden');
-        totalJobs.innerText = rejectedList.length;
+        totalJobs.innerText = rejectedList.length + ' ' + "of" + ' ' + allCardSection.children.length;
         renderRejected()
     }
 }
