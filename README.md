@@ -1,30 +1,54 @@
-# Answers to Questions
+# Job Application Tracker
 
-### 1\. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
+A clean, interactive web application for tracking job applications and managing your job search in one place.
 
-* **getElementById:** getElementById returns one Element by its ID but returns null if the ID is not found. This ID is unique means we don't have same ID in any other elements of a HTML file. Its good to use when selecting a unique element. 
+## 🌐 Live URL
 
-* **getElementsByClassName:** getElementsByClassName returns all elements using a specific class name. For example if we use a class name in 10 cards it will return all the 10 cards. It is useful when performance is matters.
+[https://interactive-web-for-job-tracker.netlify.app/](https://interactive-web-for-job-tracker.netlify.app/)
 
-* **querySelector:** Same as getElementById it returns one element (first match) by a specific class name. When we want the first matching element with a specific class name.
+---
 
-* **querySelectorAll:** It returns all the matching element by a specific class name. It returns elements as a NodeList. When we need to select multiple elements by a class name.
+## 📌 Purpose
 
-### 2\. How do you create and insert a new element into the DOM?
-By document.createElement, we create a new element into the DOM and by append or appendChild we insert that new element into the DOM. 
+Job Application Tracker helps job seekers stay organised during their job search by providing a centralised dashboard to browse available positions and track the status of each application — from initial application through to interview or rejection.
 
-### 3\. What is Event Bubbling? And how does it work?
-_Event Bubbling_ means when an event happens on an element, it first runs on that element and then “bubbles up” through its parent elements — all the way to _document_.
+---
 
-### 4\. What is Event Delegation in JavaScript? Why is it useful?
-Event delegation is a technique where a single event listener on a parent handles events for its child elements via event bubbling.
+## ✨ Key Features
 
-### 5\. What is the difference between preventDefault() and stopPropagation() methods?
-_preventDefault()_ stops the browser’s default action, while _stopPropagation()_ stops the event from bubbling up to parent elements.
+- **Application Dashboard** — At-a-glance summary showing total applications, interviews, and rejections as live counters
+- **Job Listings** — Browse a curated list of available positions with details including role, company, location, work type, and salary range
+- **Application Status Tracking** — Mark each job as **Interview** or **Rejected** to update your tracker in real time
+- **Filter by Status** — Quickly filter listings by All, Interview, or Rejected to focus on what matters
+- **Job Count Display** — Live indicator showing how many jobs are currently listed
+- **Mobile-First Design** — Responsive layout optimised for all screen sizes
+- **No Login Required** — Jump straight in and start tracking without an account
 
+---
 
+## 💼 Sample Job Listings Included
 
+The app comes pre-loaded with 8 sample positions across a range of roles and locations:
 
+| Role | Company | Location |
+|------|---------|----------|
+| Senior Frontend Developer | TechCorp Industries | San Francisco, CA |
+| Full Stack Engineer | StartupXYZ | Remote |
+| JavaScript Developer | MegaCorp Solutions | New York, NY |
+| UI/UX Engineer | Innovation Labs | Austin, TX |
+| Backend Developer | CloudFirst Inc | Seattle, WA |
+| Data Visualization Specialist | DataViz Solutions | Boston, MA |
+| Web Designer & Developer | WebFlow Agency | Los Angeles, CA |
+| React Native Developer | Mobile First Corp | Remote |
 
-### 
+---
 
+## 🛠️ Deployment
+
+This project is deployed on **Netlify**.
+
+---
+
+## 📄 License
+
+This project is open source. Feel free to fork and adapt it for your own use.

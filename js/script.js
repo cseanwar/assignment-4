@@ -157,6 +157,17 @@ mainContainer.addEventListener('click', function (event) {
     }
 })
 
+// Function for interview info box
+
+const interviewInfoBtn = function renderInfoBox () {
+    filterSection.innerHTML = '';
+    let div = document.createElement('div');
+    div.innerHTML = `
+        <button class="border border-[#10B981] text-[#10b981FF] px-4 py-2 rounded-sm font-semibold cursor-pointer">INTERVIEW</button>
+    `
+    filterSection.appendChild(div);
+} 
+
 // Function for default or empty state
 function renderDefault () {
     filterSection.innerHTML = '';
