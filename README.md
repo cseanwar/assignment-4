@@ -10,7 +10,7 @@ A clean, interactive web application for tracking job applications and managing 
 
 ## 📌 Purpose
 
-Job Application Tracker helps job seekers stay organised during their job search by providing a centralised dashboard to browse available positions and track the status of each application — from initial application through to interview or rejection.
+Job Application Tracker helps job seekers stay organized during their job search by providing a centralized dashboard to browse available positions and track the status of each application — from initial application through to interview or rejection.
 
 ---
 
@@ -21,7 +21,7 @@ Job Application Tracker helps job seekers stay organised during their job search
 - **Application Status Tracking** — Mark each job as **Interview** or **Rejected** to update your tracker in real time
 - **Filter by Status** — Quickly filter listings by All, Interview, or Rejected to focus on what matters
 - **Job Count Display** — Live indicator showing how many jobs are currently listed
-- **Mobile-First Design** — Responsive layout optimised for all screen sizes
+- **Mobile-First Design** — Responsive layout optimized for all screen sizes
 - **No Login Required** — Jump straight in and start tracking without an account
 
 ---
